@@ -8,12 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet weak var currentGrade: UITextField!
+    @IBOutlet weak var lastTest: UITextField!
+    @IBOutlet weak var myLabel: UILabel!
+    
+    override func viewDidLoad()
+    
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+
+    @IBAction func calculateGrade(_ sender: UIButton)
+    
+    {
+    
+    }
+    
+
+
+
+
+
+
 
 
 }
