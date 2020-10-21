@@ -32,7 +32,7 @@
                                 <rect key="frame" x="16" y="314" width="343" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Calculate Needed Grade">
+                                <state key="normal">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -51,6 +51,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calculate Grade That Is Needed" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bS-y2-9jP">
+                                <rect key="frame" x="16" y="314" width="343" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -58,8 +65,9 @@
                     <connections>
                         <outlet property="currentGrade" destination="nBb-le-sPf" id="kIe-qy-DIw"/>
                         <outlet property="desiredGrade" destination="yZC-zS-Srm" id="2HP-ca-hPB"/>
-                        <outlet property="lastTest" destination="9qV-wu-YK9" id="wrK-Cn-9UL"/>
+                        <outlet property="labelMy" destination="2bS-y2-9jP" id="MtW-2O-65g"/>
                         <outlet property="myLabel" destination="a0Y-OH-4Dr" id="YYW-qg-jup"/>
+                        <outlet property="percentTest" destination="9qV-wu-YK9" id="Nls-9k-Nny"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
