@@ -46,27 +46,29 @@ class ViewController: UIViewController
             view.backgroundColor = UIColor.red
             labelMy.text = "Ask for extra credit!"
         }
-        else if needed <= 99
-        {
-            view.backgroundColor = UIColor.green
-            labelMy.text = "It's possible, just have to study!"
-        }
         else if needed >= 80
         {
             view.backgroundColor = UIColor.green
-            labelMy.text = "Take your time and you'll do great!"
+            labelMy.text = "It's possible, just have to study!"
         }
         else if needed >= 50
         {
             view.backgroundColor = UIColor.green
             labelMy.text = "Just guess."
+        
         }
-        else 
+        else if needed >= 0
         {
             view.backgroundColor = UIColor.green
             labelMy.text = "Just show up!"
         }
+        else
+        {
+            view.backgroundColor = UIColor.green
+            labelMy.text = "There is no possible way that you can't get this grade"
+        }
     }
+    
     
     
 }
